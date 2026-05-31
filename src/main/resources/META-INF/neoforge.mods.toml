@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+    modId="createcr"
+    version="1.0.0"
+    displayName="Create Crafting Recipes"
+    description='''
+        Adds common Create mod recipes, including bulk smoking and sequenced assembly for diamonds.
+    '''
+
+[[dependencies.createcr]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.createcr]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.createcr]]
+    modId="create"
+    type="required"
+    versionRange="[0.5,)"
+    ordering="AFTER"
+    side="BOTH"
