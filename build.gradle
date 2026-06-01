@@ -28,6 +28,7 @@ neoForge {
     runs {
         client {
             client()
+            jvmArgument "-Dfml.disableEarlyWindowControl=true"
         }
         server {
             server()
